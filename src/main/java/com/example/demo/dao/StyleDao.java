@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.dao;
 
 import com.example.demo.model.PostStyleReq;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -14,11 +14,6 @@ public class StyleDao {
         this.jdbcTemplate = new JdbcTemplate(dataSource);
     }
 
-    // SELECT
-    //public void select() {
-    //    String sql = "SELECT * FROM style WHERE style_idx=?";
-    //    jdbcTemplate.query(sql);
-    //}
 
     // INSERT
     public int insert(PostStyleReq postStyleReq) {

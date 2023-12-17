@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.StyleService;
+import com.example.demo.service.StyleService;
 import com.example.demo.model.PostStyleReq;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
