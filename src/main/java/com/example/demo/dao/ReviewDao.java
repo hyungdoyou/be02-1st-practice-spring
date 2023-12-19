@@ -12,8 +12,8 @@ import java.util.List;
 public class ReviewDao {
     private final JdbcTemplate jdbcTemplate;
 
-    public ReviewDao(DataSource dataSource) {
-        this.jdbcTemplate = new JdbcTemplate(dataSource);
+    public ReviewDao(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
     }
 
     // CREATE

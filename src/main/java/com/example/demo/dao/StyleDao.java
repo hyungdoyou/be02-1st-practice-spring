@@ -10,8 +10,8 @@ import javax.sql.DataSource;
 public class StyleDao {
     private JdbcTemplate jdbcTemplate;
 
-    public StyleDao(DataSource dataSource) {
-        this.jdbcTemplate = new JdbcTemplate(dataSource);
+    public StyleDao(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
     }
 
 

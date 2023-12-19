@@ -4,7 +4,7 @@ import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor // 생성자 생성 어노테이션
+@AllArgsConstructor
 @Builder
 public class UserLoginDto {
     private String id;
